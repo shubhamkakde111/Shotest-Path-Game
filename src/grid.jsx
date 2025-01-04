@@ -19,7 +19,7 @@ import Comp from './component.jsx';
             props.setcost(prevp=>props.cost+props.grid[rowIndex][colIndex]);
              if(rowIndex==props.row-1&&colIndex==props.col-1){
                  setmin(minicost=shortest(props.grid,props.row,props.col));
-              //console.log(props.cost,minicost);
+              
                  setfg(true);
              }
              
